@@ -1,2 +1,3 @@
 # SuperCogAlg
-Machine Learning, Computer Vision, Artificial General Intelligence
+Incremental Machine Learning * Computer Vision * Artificial General Intelligence
+
