@@ -21,5 +21,5 @@ https://artificial-mind.blogspot.com/2019/05/call-for-co-founders-of-r-startup-i
 
 ![image](images_6-and-7-2019/n18086_END.png)
 
-![image](raccoon_25_hypot_n20536_END.png)
+![image](images_6-and-7-2019/raccoon_25_hypot_n20536_END.png)
 
