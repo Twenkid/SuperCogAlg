@@ -1,0 +1,58 @@
+#Author: Todor Arnaudov, 20.4.2019
+* Map
+
+# WHAT is?
+@ WHY?
+
+-- coordinates, selection
+
+* PRINCIPLES
+ -- SELECTION
+  -- HOW? -- CONDITIONS: ...
+                 --- IF ... different values ...
+                 
+ -- INCREMENTAL
+  -- WHAT?
+   -- PRIMARY: COORDINATES, INPUT
+   
+ -- DIMENSIONS (Knowledge how to represent them)
+  0D: Variable  #scalar
+  1D: List      #vector
+  1D: Tuple
+  1D+Idents: Namedtuple #connected to idents
+  2D: Numpy array : shape, ... -> mapping to 1D, to 0D ... coordinates
+      Initializations, types, ... .zeros, .ones, ... .shape ... dtype=int, dtype=bool
+        --- bool is primary selection=differentiation type, IF
+
+  -- ADDRESSING
+    -- Ident (Scope)
+      List of lists
+      NP arrays      
+      Indexing: Numpy array ~ Multi-dimensional lists
+      
+  -- ITERATIONS
+    -- Generalized definitions of the traversal
+       Traverse(source=dert__, start_index= , set = ...from=) 
+       #?will it be shorter than the full code?
+       
+    -- Unfold/Have templates for one by one setting
+    -- Then compress (if possible) - can be manual
+    
+       Summation:  [Target summation addresses frame[0] ...  ]
+         frame[0][0] += I
+         frame[0][1] += Dy
+         frame[0][2] += Dx
+         frame[0][3] += G
+         
+    -- COUNTING
+         -- During iterations, scanning
+            +1 ...
+            
+    -- RANGES
+        -- start, end
+        -- minimum, maximum
+        -- left, right  x0, xn; y0, yn
+        
+    -- GROUP by Identifiers
+       x: x, x0, _x, _x0, xn, _xn
+       y: y, y0, _y, _y0, yn, _yn
